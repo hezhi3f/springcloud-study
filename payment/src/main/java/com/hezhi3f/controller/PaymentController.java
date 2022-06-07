@@ -13,7 +13,7 @@ public class PaymentController {
     private PaymentService service;
 
     @PostMapping("/save")
-    public Result save(Payment payment) {
+    public Result save(@RequestBody Payment payment) {
         Integer result = service.save(payment);
         if (result > 0) {
             return Result.success(result);

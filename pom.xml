@@ -11,6 +11,7 @@
 
     <modules>
         <module>payment</module>
+        <module>order</module>
     </modules>
 
     <parent>
