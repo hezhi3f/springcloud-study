@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hezhi3f.mapper.PaymentMapper">
+    <insert id="save" parameterType="Payment" useGeneratedKeys="true" keyProperty="id">
+        insert into `payment`(`serial`)
+        values (#{serial});
+    </insert>
+
+    <select id="getPaymentById" resultMap="PaymentMap" parameterType="Integer">
+        select *
+        from `payment`
+        where `id` = #{id};
+    </select>
+
+    <resultMap id="PaymentMap" type="com.hezhi3f.entity.Payment">
+        <id column="id" property="id" jdbcType="BIGINT" javaType="Integer"/>
+        <id column="serial" property="serial" jdbcType="VARCHAR" javaType="String"/>
+    </resultMap>
+</mapper>
