@@ -1,0 +1,10 @@
+server:
+  port: 4445
+eureka:
+  instance:
+    hostname: eureka4445.com
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka4444.com:4444/eureka/

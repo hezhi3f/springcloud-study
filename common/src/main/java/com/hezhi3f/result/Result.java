@@ -1,9 +1,6 @@
 package com.hezhi3f.result;
 
 public class Result {
-/*    NOT_FOUND(404, "NOT FOUND", null),
-    QUERY_NULL(200, "查询为空", null);*/
-
     private Integer code;
     private String msg;
     private Object data;
