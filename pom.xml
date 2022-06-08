@@ -17,6 +17,7 @@
         <module>eureka-server-copy</module>
         <module>payment-copy</module>
         <module>payment-zookeeper</module>
+        <module>order-zookeeper</module>
     </modules>
 
     <parent>
