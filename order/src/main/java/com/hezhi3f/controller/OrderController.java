@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 @RestController
 @RequestMapping("/order")
 public class OrderController {
-    private final String PAYMENT_URL = "http://localhost:8001";
+    private final String PAYMENT_URL = "http://PAYMENT-SERVICE";
     @Resource
     private RestTemplate restTemplate;
 

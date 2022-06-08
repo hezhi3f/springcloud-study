@@ -15,6 +15,7 @@
         <module>common</module>
         <module>eureka-server</module>
         <module>eureka-server-copy</module>
+        <module>payment-copy</module>
     </modules>
 
     <parent>
