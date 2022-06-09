@@ -18,6 +18,8 @@
         <module>payment-copy</module>
         <module>payment-zookeeper</module>
         <module>order-zookeeper</module>
+        <module>payment-consul</module>
+        <module>order-consul</module>
     </modules>
 
     <parent>
