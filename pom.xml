@@ -21,6 +21,7 @@
         <module>payment-consul</module>
         <module>order-consul</module>
         <module>order-openfeign</module>
+        <module>order-ribbon</module>
     </modules>
 
     <parent>
