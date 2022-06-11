@@ -1,0 +1,6 @@
+- 新版本SpringCloud怎么依赖Openfeign
+  - 
+- 使用RestTemplate就能正常访问，使用Openfeign就报错
+  - 
+- 报错是[503] during [GET] to [http://PAYMENT-SERVICE/payment/get/4] [PaymentFeignService#getPaymentById(Integer)]: [Load balancer does not contain an instance for the service PAYMENT-SERVICE]
+  - 

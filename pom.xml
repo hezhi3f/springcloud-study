@@ -20,6 +20,7 @@
         <module>order-zookeeper</module>
         <module>payment-consul</module>
         <module>order-consul</module>
+        <module>order-openfeign</module>
     </modules>
 
     <parent>
