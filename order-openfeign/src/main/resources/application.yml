@@ -4,4 +4,4 @@ eureka:
   client:
     register-with-eureka: false
     service-url:
-      defaultZone: http://erueka4444.com:4444/eureka/,http://eureka4445:4445/eureka/
+      defaultZone: http://eureka4444.com:4444/eureka/,http://eureka4445.com:4445/eureka/

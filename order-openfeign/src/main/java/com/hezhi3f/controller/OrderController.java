@@ -18,7 +18,6 @@ public class OrderController {
 
     @GetMapping("/get/{id}")
     public Result getPaymentById(@PathVariable("id") Integer id) {
-        System.out.println("Order service controller");
         return paymentFeignService.getPaymentById(id);
     }
 
