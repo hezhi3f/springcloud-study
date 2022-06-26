@@ -22,6 +22,7 @@
         <module>order-consul</module>
         <module>order-openfeign</module>
         <module>order-ribbon</module>
+        <module>payment-hystrix</module>
     </modules>
 
     <parent>

@@ -1,0 +1,13 @@
+server:
+  port:
+    8001
+spring:
+  application:
+    name: hystrix-payment
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://eureka4444.com:4444/eureka
